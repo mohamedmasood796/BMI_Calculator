@@ -6,7 +6,7 @@ function Form({getData}) {
     const [Alert,setAlert] = useState(false)
 
     const getWeight = (e) => {
-        console.log(e.target.value)
+        
         setWeight(e.target.value)
     }
 

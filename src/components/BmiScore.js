@@ -1,8 +1,7 @@
 import React from 'react'
 
 function BmiScore(props) {
-    console.log(props.bmiNo)
-    console.log(props.BmiName)
+    
     const { bmiNo, BmiName } = props
     return (
         <div className='rounded text-center shadow p-4'>
